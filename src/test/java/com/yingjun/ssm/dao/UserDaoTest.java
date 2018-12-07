@@ -10,7 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.yingjun.ssm.entity.User;
+import com.manage.ssm.dao.UserDao;
+import com.manage.ssm.entity.User;
 
 /**
  * 

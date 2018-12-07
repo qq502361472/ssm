@@ -10,8 +10,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.yingjun.ssm.entity.Goods;
-import com.yingjun.ssm.entity.Order;
+import com.manage.ssm.dao.GoodsDao;
+import com.manage.ssm.dao.OrderDao;
+import com.manage.ssm.entity.Goods;
+import com.manage.ssm.entity.Order;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:spring/spring-dao.xml")
